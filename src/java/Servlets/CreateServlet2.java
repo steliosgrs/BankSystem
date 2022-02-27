@@ -3,6 +3,8 @@ import Database.*;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import static java.nio.charset.StandardCharsets.ISO_8859_1;
+import static java.nio.charset.StandardCharsets.UTF_8;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -35,7 +37,13 @@ public class CreateServlet2 extends HttpServlet {
         
         // έρχεται η είσοδος από την φόρμα με request και αναθέτονται σε μεταβλητές
         String name = request.getParameter("name");
+        byte[] ptext = name.getBytes(ISO_8859_1);   //string to UTF-8, Now we can read greek characters
+        name = new String(ptext, UTF_8);
+        
         String address = request.getParameter("address");
+        ptext = address.getBytes(ISO_8859_1);   //string to UTF-8, Now we can read greek characters
+        address = new String(ptext, UTF_8);
+        
         String mail = request.getParameter("mail");
         
         String phone_s = request.getParameter("phone");
