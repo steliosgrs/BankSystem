@@ -9,6 +9,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <header>
         <h1>Διαχείριση Τραπεζικού Λογαριασμού</h1>
     </header>
@@ -55,6 +56,51 @@
         </div>
     </div>
 
+=======
+    <h1>Διαχείριση Τραπεζικού Λογαριασμού</h1>
+    <h2>Μενού</h2>
+    <h3>Διαχείριση Υπολοίπου</h3>
+    <div class="money">
+        <form action="DepositServlet" >
+            2 - <input type="submit" value="Κατάθεση" />
+        </form>
+        <form action="WithdrawalServlet">
+            3 - <input type="submit" value="Ανάληψη" />
+        </form>
+        <form action="TransferServlet" >
+            4 - <input type="submit" value="Μεταφορά χρημάτων" />
+        </form>
+    </div>
+
+    <h3>Εμφάνιση</h3>
+    <div class="left">
+        <form action="ViewIdServlet" method="post">
+            6 - <input type="submit"  value="Προβολή στοιχείων">
+        </form>
+        <form action="ViewAllServlet" method="post">
+            7 - <input type="submit"  value="Προβολή όλων">
+        </form>
+    </div>
+
+    <h3>Διαχείριση Λογαριασμού</h3>
+    <div class="accounts">
+
+        <form action="CreateServlet">
+            1 - <input type="submit" value="Δημιουργία λογαριασμού" />
+        </form>
+
+        <form action="ActiveDectServlet" method="post">
+            5 - <input type="submit"  value="Απενεργοποίηση/Ενεργοποίηση λογαριασμού">
+        </form>
+
+        <form action="DeleteServlet"  method="post">
+            8 - <input type="submit"   value="Διαγραφή λογαριασμού">
+        </form>
+
+    </div>
+
+
+>>>>>>> cc9054e7c13b6d3ccb9d874c2f3d96d8ffb80772
 </body>
 
 </html>
