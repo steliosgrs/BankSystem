@@ -13,7 +13,9 @@ h2{
 h3{
     text-align:center;
     border: 3px solid #ffAD21;
-    padding: 10px;
+    /* padding: 10px; */
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 form{
@@ -25,10 +27,9 @@ header {
     float:none;
     height: 57px;
     /* background-color: #110231; */
-    padding-left: 16px;
-    padding-bottom: 10px;
-
+    padding: 10px;
 }
+
 body {
     margin: 0;
     /* background: rgb(18,60,100); */
@@ -67,7 +68,8 @@ right {
 
 .center {
     margin: 10px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    padding: 20px;
     position:absolute;
     top: 50%; left: 50%;
     -ms-transform: translate(-50%, -50%);
