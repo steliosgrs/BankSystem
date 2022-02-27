@@ -21,6 +21,24 @@ form{
     margin: 10px;
     /* border: 2px solid #73AD21; */
 }
+header {
+    float:none;
+    height: 57px;
+    /* background-color: #110231; */
+    padding-left: 16px;
+    padding-bottom: 10px;
+
+}
+body {
+    margin: 0;
+    /* background: rgb(18,60,100); */
+    background: radial-gradient(circle,
+    rgba(157,157,136,1)  13%,
+    rgba(18,60,100,1) 40%,
+    rgba(103,173,224,1) 77%);
+
+}
+
 accounts{
     margin: 0;
     position: absolute;
@@ -45,4 +63,13 @@ right {
     width: 200px;
     border: 3px solid #73AD21;
     padding: 10px;
+}
+
+.center {
+    margin: 10px;
+    padding-top: 10px;
+    position:absolute;
+    top: 50%; left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
