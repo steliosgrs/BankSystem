@@ -1,6 +1,6 @@
 # BankSystem project
 
-A [Bank System](https://noliferx.github.io/BankSystem/web/index.html) made with Java's Servlets.
+A [Bank System](https://steliosgrs.github.io/BankSystem/web/index.html) made with Java's Servlets.
 
 #### Developed Functions
 - Money Deposit or Withdrawal
